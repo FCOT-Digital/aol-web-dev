@@ -89,12 +89,17 @@
 				return {
 					pending: false,
 					file_text: null,
+					current_heading: null,
+					headings: [],
 				};
 			},
 			computed: {
 				rendered_file() {
 					return this.file_text ? marked.parse(this.file_text) : '';
 				},
+			},
+			mounted() {
+				window.addEventListener('keydown', this.handleKeyPress);
 			},
 			methods: {
 				async handleDrop(event) {
@@ -103,9 +108,39 @@
 					const file = files && files[0];
 					if (file) {
 						this.file_text = await file.text();
+						const lines = this.file_text.split('\n');
+						const heading_lines = lines.filter(line => line.startsWith('#'));
+						this.headings = heading_lines.map(line => line.trim());
+						this.current_heading = null;
 					}
 					this.pending = false;
 				},
+				handleKeyPress(event) {
+					if (event.key === 'PageUp') {
+						event.preventDefault();
+						if (this.current_heading > 0) {
+							this.current_heading = this.current_heading - 1;
+							this.scrollToHeading(this.headings[this.current_heading]);
+						}
+					} else if (event.key === 'PageDown') {
+						event.preventDefault();
+						if (this.current_heading === null && this.headings.length > 0) {
+							this.current_heading = 0;
+						} else if (this.current_heading < this.headings.length - 1) {
+							this.current_heading = this.current_heading + 1;
+						}
+						this.scrollToHeading(this.headings[this.current_heading]);
+					}
+				},
+				scrollToHeading(heading) {
+					const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+					for (const h of headings) {
+						const prefix = '#'.repeat(parseInt(h.tagName[1]));
+						if (prefix + " " + h.textContent.trim() === heading) {
+							h.scrollIntoView({ behavior: 'smooth' });
+						}
+					}
+				}
 			},
 		}).mount('#app');
 	</script>
