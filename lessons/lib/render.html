@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Markdown Renderer</title>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<style>
+		html {
+			font-family: "Quicksand", sans-serif;
+			text-align: justify;
+			--cta-background: orange;
+			--stale-background: lightgrey;
+		}
+		body {
+			margin: 0;
+			padding: 0.5rem;
+			zoom: 1.5;
+		}
+		nav {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			margin: 0.5rem;
+			> * {
+				flex-grow: 1;
+				text-align: center;
+				padding: 1rem;
+				border: 0;
+				font-family: "Quicksand", sans-serif;
+				font-size: 100%;
+				font-weight: bolder;
+				background: var(--stale-background);
+				border-radius: 1.5rem;
+			}
+			> *.call-to-action {
+				background: var(--cta-background);
+			}
+		}
+		main {
+			margin: 0.5rem;
+			line-height: 150%;
+		}
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+		img {
+			width: 100%;
+		}
+		@media print {
+			nav {
+				display: none;
+			}
+			hr {
+				page-break-after: always;
+				border: none;
+			}
+		}
+		@media (prefers-color-scheme: dark) {
+			html {
+				background: black;
+				color: lightgrey;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<nav>
+			<button
+				v-bind:class="{ 'call-to-action': !file_text && !pending }"
+				v-on:drop.prevent="handleDrop"
+				ondragover="event.preventDefault()"
+			>
+				Drop File Here
+			</button>
+		</nav>
+		<main v-html="rendered_file"></main>
+	</div>
+	
+	<script>
+		Vue.createApp({
+			data() {
+				return {
+					pending: false,
+					file_text: null,
+				};
+			},
+			computed: {
+				rendered_file() {
+					return this.file_text ? marked.parse(this.file_text) : '';
+				},
+			},
+			methods: {
+				async handleDrop(event) {
+					this.pending = true;
+					const files = event.dataTransfer && event.dataTransfer.files
+					const file = files && files[0];
+					if (file) {
+						this.file_text = await file.text();
+					}
+					this.pending = false;
+				},
+			},
+		}).mount('#app');
+	</script>
+</body>
+</html>
