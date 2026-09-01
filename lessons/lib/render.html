@@ -9,12 +9,28 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<style id="palette">
+		html {
+			--background: hsl(0, 0%, 100%);
+			--main: hsl(0, 0%, 15%);
+			--action: hsl(120, 100%, 15%);
+			--alternate: hsl(300, 100%, 15%);
+		}
+		@media (prefers-color-scheme: dark) {
+			html {
+				--background: hsl(0, 0%, 0%);
+				--main: hsl(0, 0%, 85%);
+				--action: hsl(120, 100%, 85%);
+				--alternate: hsl(300, 100%, 85%);
+			}
+		}
+	</style>
 	<style>
 		html {
+			background: var(--background);
+			color: var(--main);
 			font-family: "Quicksand", sans-serif;
 			text-align: justify;
-			--cta-background: orange;
-			--stale-background: lightgrey;
 		}
 		body {
 			margin: 0;
@@ -34,11 +50,12 @@
 				font-family: "Quicksand", sans-serif;
 				font-size: 100%;
 				font-weight: bolder;
-				background: var(--stale-background);
+				background: var(--main);
+				color: var(--background);
 				border-radius: 1.5rem;
 			}
 			> *.call-to-action {
-				background: var(--cta-background);
+				background: var(--action);
 			}
 		}
 		main {
@@ -50,7 +67,14 @@
 			text-decoration: none;
 		}
 		img {
-			width: 100%;
+			max-width: 100%;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			color: var(--action);
+			font-family: monospace;
+		}
+		em {
+			color: var(--alternate);
 		}
 		@media print {
 			nav {
@@ -59,12 +83,6 @@
 			hr {
 				page-break-after: always;
 				border: none;
-			}
-		}
-		@media (prefers-color-scheme: dark) {
-			html {
-				background: black;
-				color: lightgrey;
 			}
 		}
 	</style>
@@ -77,7 +95,7 @@
 				v-on:drop.prevent="handleDrop"
 				ondragover="event.preventDefault()"
 			>
-				Drop File Here
+				Drop Markdown File Here
 			</button>
 		</nav>
 		<main v-html="rendered_file"></main>
@@ -140,7 +158,7 @@
 							h.scrollIntoView({ behavior: 'smooth' });
 						}
 					}
-				}
+				},
 			},
 		}).mount('#app');
 	</script>
