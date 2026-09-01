@@ -139,8 +139,8 @@
 						event.preventDefault();
 						if (this.current_page > 0) {
 							this.current_page = this.current_page - 1;
-							this.scrollToPage(this.current_page);
 						}
+						this.scrollToPage(this.current_page);
 					} else if (event.key === 'PageDown') {
 						event.preventDefault();
 						if (this.current_page === null) {
