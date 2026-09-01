@@ -1,6 +1,6 @@
 # Template Lesson
 
-* Template a PRIDAME markdown lesson so that I can test the codebase
+* Template a PRIDAME lesson so that I can test the codebase
 
 ---
 
@@ -10,7 +10,7 @@
 *Your answer here*
 1. Test of another question
 
-![Code snippet](../web%20development/WxxLxxPredict.png)
+![Code snippet](../DSD_Y2/LxxPredict.png)
 
 ---
 
