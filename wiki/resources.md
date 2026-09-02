@@ -22,3 +22,7 @@
 * [caniuse.com](https://caniuse.com/)
 * [statcounter.com](https://gs.statcounter.com/)
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+## Formal Resources
+
+* [Exam Board Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
