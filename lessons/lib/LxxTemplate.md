@@ -10,7 +10,7 @@
 *Your answer here*
 1. Test of another question
 
-![Code snippet](../DSD_Y2/LxxPredict.png)
+![Code snippet](../lib/LxxPredict.png)
 
 ---
 
