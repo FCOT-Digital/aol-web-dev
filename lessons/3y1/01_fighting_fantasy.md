@@ -1,4 +1,4 @@
-# Fighting Fantasy Project
+# Fighting Fantasy Python Project
 
 * Program a fighting fantasy game so that you practise Python.
 
