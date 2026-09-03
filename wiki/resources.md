@@ -13,6 +13,8 @@
 * [web.dev](https://web.dev/)
 * [vuejs.org](https://vuejs.org/guide/introduction.html/)
 * [w3schools.com](https://www.w3schools.com/)
+* [coddy.tech](https://coddy.tech/)
+* [boot.dev](https://www.boot.dev)
 * To Find: [Flask for SPA REST]
 * To Find: [SQLite for SPA REST]
 
