@@ -31,9 +31,9 @@ Remember to set the questions to a random order
 1. Download [(resource) - elements](../3y2/01%20(resource)%20-%20elements.html)
 1. Open it in both Edge and VSCode
 1. Fix the following errors
+    * Correct the "Sing up" typo. *Describe your fix.*
     * Add missing link in the navigation bar. *Describe your fix.*
     * Make the "Welcome" heading larger. *Describe your fix.*
-    * Correct the "Sing up" typo. *Describe your fix.*
     * Add descriptive `alt` text to the image. *Describe your fix.*
     * There's too much spacing in the footer. *Describe your fix.*
     * Update the footer year and add a © symbol. *Describe your fix.*
