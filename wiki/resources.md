@@ -15,8 +15,8 @@
 * [w3schools.com](https://www.w3schools.com/)
 * [coddy.tech](https://coddy.tech/)
 * [boot.dev](https://www.boot.dev)
-* [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
-* [SQLBolt](https://sqlbolt.com/)
+* [flask/quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
+* [sqlbolt.com](https://sqlbolt.com/)
 
 ### Specific Tools
 
