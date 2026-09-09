@@ -51,3 +51,14 @@ Remember to set the questions to a random order
     * Centre the layout. *Describe your fix.*
     * Resize the badge text. *Describe your fix.*
     * Improve footer contrast. *Describe your fix.*
+
+---
+
+## Under The Hood
+
+* Explore browser tools so that you can debug web sites.
+
+## Exit Question
+
+* How do you load the debugging tools?
+*Your answer at the end of the lesson*
