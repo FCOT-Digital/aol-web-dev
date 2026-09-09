@@ -21,6 +21,7 @@
 1. Teacher to demonstrate the box model on a live website.
 1. Teacher to tweak padding, margin, border and background-color.
 1. While doing this point out the nested nature of elements.
+1. Point out the key fact that the boxes extend to their edges.
 
 *Sketch the VSCode layout using boxes.*
 
@@ -28,7 +29,7 @@
 
 ## Challenge
 
-1. *Build a website as close to the design on the board as possible.*
+1. *Build a website as close to one of these designs as possible.*
 [Colorlib Template Library](https://colorlib.com/)
 1. *What features did you have to research?*
 1. *What features couldn't you implement yet?*
