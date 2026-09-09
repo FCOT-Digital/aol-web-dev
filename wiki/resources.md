@@ -15,8 +15,8 @@
 * [w3schools.com](https://www.w3schools.com/)
 * [coddy.tech](https://coddy.tech/)
 * [boot.dev](https://www.boot.dev)
-* To Find: [Flask for SPA REST]
-* To Find: [SQLite for SPA REST]
+* [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
+* [SQLBolt](https://sqlbolt.com/)
 
 ### Specific Tools
 
