@@ -11,16 +11,18 @@
 ### Learning Guides
 
 * [web.dev](https://web.dev/)
+* [freeCodeCamp](https://www.freecodecamp.org/)
 * [vuejs.org](https://vuejs.org/guide/introduction.html/)
 * [w3schools.com](https://www.w3schools.com/)
-* [coddy.tech](https://coddy.tech/)
 * [boot.dev](https://www.boot.dev)
+* [coddy.tech](https://coddy.tech/)
 * [flask/quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
 * [sqlbolt.com](https://sqlbolt.com/)
 
 ### Specific Tools
 
 * [css-tricks.com](https://css-tricks.com/guides/)
+* [cssreference.io](https://cssreference.io/)
 * [caniuse.com](https://caniuse.com/)
 * [statcounter.com](https://gs.statcounter.com/)
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
