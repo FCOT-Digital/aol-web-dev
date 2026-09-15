@@ -28,7 +28,7 @@ Remember to set the questions to a random order
 
 ## Fixing Elements
 
-1. Download [(resource) - elements](../webdev/01%20(resource)%20-%20elements.html)
+1. Download [resource - elements](../webdev/01_resource_elements.html)
 1. Open it in both Edge and VSCode
 1. Fix the following errors
     * Correct the "Sing up" typo. *Describe your fix.*
@@ -42,7 +42,7 @@ Remember to set the questions to a random order
 
 ## Fixing Styles
 
-1. Download [(resource) - styles](../webdev/01%20(resource)%20-%20styles.html)
+1. Download [resource - styles](../webdev/01_resource_styles.html)
 1. Open it in both Edge and VSCode
 1. Fix the following errors
     * Make the nav links grey. *Describe your fix.*
