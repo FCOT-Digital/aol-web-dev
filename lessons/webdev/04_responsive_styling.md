@@ -10,7 +10,7 @@
 
 ---
 
-## <meta viewport>
+## meta viewport
 
 Turn off all the adaptions that mobile phones try to put in place.
 
@@ -56,7 +56,7 @@ It's very useful once you get used to it, because we usually want to measure ele
 div {
     padding: 2em;
 }
-
+```
 
 ---
 
