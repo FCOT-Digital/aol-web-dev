@@ -12,7 +12,9 @@
 
 ## meta viewport
 
-Turn off all the adaptions that mobile phones try to put in place.
+Turn off all the adaptions that smartphones put in place for small screens.
+Various hacks were made to cope with websites that aren't designed for mobiles.
+However, these cause problems for websites that are designed for the modern web.
 
 ```
 <head>
@@ -25,32 +27,12 @@ Turn off all the adaptions that mobile phones try to put in place.
 
 ---
 
-## CSS Variables
-
-```css
-html {
-    --background: hsl(0, 0%, 100%);
-    --main: hsl(0, 0%, 15%);
-    --action: hsl(120, 100%, 15%);
-}
-```
-
-Whenever you reference these within the html element, they are substituted in.
-
-```css
-html {
-    background: var(--background);
-    color: var(--main);
-}
-```
-
----
-
 ## em & other units
 
-The `em` is a unit of measurement from laying out print runs of newpapers. It is the width of the letter `m` for that situation.
-
-It's very useful once you get used to it, because we usually want to measure elements relative to the text.
+The `em` is a unit of measurement from laying out print runs of newpapers.
+It is the width of the letter m in that situation.
+It's very useful once you get used to it.
+We quite often want an element to be "a few words wide".
 
 ```css
 div {
@@ -58,14 +40,16 @@ div {
 }
 ```
 
+1. Look up `%`, `vw` and `vh`.
+
 ---
 
 ## @media width
 
 ```css
 @media (min-width: 799px) {
-    html {
-        background: hotpink;
+    navbar.burger {
+        display: none;
     }
 }
 ```
@@ -89,4 +73,23 @@ div {
 1. What do you think this will do?
 1. Students to test this.
 
-This is combines well with CSS variables to swap an entire palette out.
+---
+
+## CSS Variables
+
+```css
+html {
+    --background: hsl(0, 0%, 100%);
+    --main: hsl(0, 0%, 15%);
+    --action: hsl(120, 100%, 15%);
+}
+```
+
+Whenever you reference these within the html element, they are substituted in.
+
+```css
+html {
+    background: var(--background);
+    color: var(--main);
+}
+```
