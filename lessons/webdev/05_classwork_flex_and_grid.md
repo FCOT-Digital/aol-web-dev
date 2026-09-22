@@ -2,7 +2,7 @@
 
 # Flex and Grid
 
-* Use flex and grid layouts so that you can create responsive designs.
+* Use flex and grid layouts so that you can implement web pages that adapt to screen width.
 
 ## Predict & Run
 
@@ -14,23 +14,26 @@
 ## Inspect & Debug
 
 * Toggle rules on and off using the debugging tools.
-* Explain what each flex rules does.
+* Explain what each rule does.
 *Your answer here*
+* Compare your answers to help each other.
 
 ---
 
 ## Adapt & Modify
 
-* Go to [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and try some of the other flex based rules.
+* Go to [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and try some of the other flex rules.
 * Describe one of the rules you tried.
 *Your answer here*
+* Explain the rule you described to your neighbour.
 
 ---
 
 ## Grid
 
-* Flex is great where you have T junctions, either horizontal or vertical.
-* However, sometimes you want both horizontal and vertical alignment...
+* Flex is great where you have rows or columns of boxes.
+* You can even nest it, like the layout in VSCode.
+* However, occasionally you want alignment in both directions.
 * [Grid!](https://css-tricks.com/complete-guide-css-grid-layout/)
 
 ---
