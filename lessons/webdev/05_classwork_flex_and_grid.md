@@ -20,7 +20,7 @@
 
 ---
 
-## Adapt & Modify
+## Adapt
 
 * Go to [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and try some of the other flex rules.
 * Describe one of the rules you tried.
@@ -37,6 +37,11 @@
 * [Grid!](https://css-tricks.com/complete-guide-css-grid-layout/)
 
 ---
+
+## Evaluate
+
+* Is there anything more about styling a website that you'd still like to learn?
+*Write your answer here. Then try to find out. If you're still stuck put it in the FAQ*
 
 ## Make
 
