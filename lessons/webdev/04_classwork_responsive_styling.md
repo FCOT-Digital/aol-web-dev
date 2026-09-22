@@ -13,7 +13,7 @@
 ## meta viewport
 
 Turn off all the adaptions that smartphones put in place for small screens.
-Various hacks were made to cope with websites that aren't designed for mobiles.
+Various hacks were made to cope with websites that were not designed for mobiles.
 However, these cause problems for websites that are designed for the modern web.
 
 ```
@@ -32,7 +32,7 @@ However, these cause problems for websites that are designed for the modern web.
 The `em` is a unit of measurement from laying out print runs of newpapers.
 It is the width of the letter m in that situation.
 It's very useful once you get used to it.
-We quite often want an element to be "a few words wide".
+We quite often want an element, such as an image or button, to be "a few words wide".
 
 ```css
 div {
@@ -48,13 +48,15 @@ div {
 
 ```css
 @media (min-width: 799px) {
-    navbar.burger {
+    navbar.minified {
         display: none;
     }
 }
 ```
 
-1. What do you think this will do?
+1. When would you want a smaller menu?
+1. How does this CSS help achieve that?
+1. It's not complete, what else would you need to do?
 1. Teacher to demonstrate selecting device emulation.
 1. Students to experiment with min-width
 
@@ -71,7 +73,6 @@ div {
 ```
 
 1. What do you think this will do?
-1. Students to test this.
 
 ---
 
@@ -85,7 +86,7 @@ html {
 }
 ```
 
-Whenever you reference these within the html element, they are substituted in.
+Whenever you use these within the html styles, they are put in.
 
 ```css
 html {
