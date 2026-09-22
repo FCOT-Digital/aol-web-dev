@@ -1,4 +1,4 @@
-![Code that uses flex](../webdev/05_flex.png)
+![Code that uses flex](../webdev/05_resource_flex.png)
 
 # Flex and Grid
 
