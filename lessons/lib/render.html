@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Markdown Renderer</title>
+	<base target="_blank">
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +16,14 @@
 			--main: hsl(0, 0%, 15%);
 			--action: hsl(120, 100%, 15%);
 			--alternate: hsl(300, 100%, 15%);
+			--external: hsl(240, 100%, 15%);
 		}
 		@media (prefers-color-scheme: dark) {
 			html {
 				--background: hsl(0, 0%, 0%);
 				--main: hsl(0, 0%, 85%);
 				--action: hsl(120, 100%, 85%);
+				--external: hsl(240, 100%, 85%);
 				--alternate: hsl(300, 100%, 85%);
 			}
 		}
@@ -63,7 +66,7 @@
 			line-height: 150%;
 		}
 		a {
-			color: var(--action);
+			color: var(--external);
 			text-decoration: none;
 			font-style: italic;
 		}
