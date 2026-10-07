@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+	<div id="app">
+		<label>
+			Name:
+			<input
+				type="text"
+				v-model="name"
+				placeholder="Enter your name"
+			>
+		</label>
+		<p>Hello, {{ name || 'World' }}!</p>
+	</div>
+	<script>
+		Vue.createApp({
+			data() {
+				return {
+					name: null,
+				}
+			}
+		}).mount('#app')
+	</script>
+</body>
+</html>
