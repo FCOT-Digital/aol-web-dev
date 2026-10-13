@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+	<div id="app">
+		<label>
+			Name:
+			<input
+				type="text"
+				v-model="person"
+				placeholder="Enter your name"
+			>
+		</label>
+        <p v-if="person === 'Andrew'">Happy Birthday, {{person}}!</p>
+		<p v-else>Hello, {{ person || 'World' }}!</p>
+        <p v-for="p in people">Hello, {{p}}!</p>
+	</div>
+	<script>
+		Vue.createApp({
+			data() {
+				return {
+					person: null,
+                    people: ['Alice', 'Bob', 'Charlie']
+				}
+			}
+		}).mount('#app')
+	</script>
+</body>
+</html>
