@@ -23,6 +23,8 @@ Using your existing knowledge of Python commands and HTML/VueJS answer the follo
 
 ## Inspect
 
+![Your Sketch](../webdev/11_your_sketch.png)
+
 You might like to use [diagrams.net](https://app.diagrams.net/) for these sketches.
 You will be sketching the relationship between the data and the presentation in a Vue application.
 
@@ -30,8 +32,6 @@ You will be sketching the relationship between the data and the presentation in 
 This can probably be two boxes and a labelled arrow.
 1. Add `v-model`, `v-if`, `v-for` & `v-bind` to your sketch.
 *Export this as a PNG and add it to this lesson.*
-
-![Your Sketch](../webdev/11_your_sketch.png)
 
 ---
 
