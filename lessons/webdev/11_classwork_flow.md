@@ -58,7 +58,8 @@ You can now receive, present and react to data in a Vue application.
 
 ## Evaluate
 
-1. What does `<template>` do in a Vue application?
+1. Research what `<template>` does in a Vue application?
+Whichever research tools you use, make sure you can explain it to a friend.
 *Your answer here.*
 1. What topics are next in the course?
 *Your answer here.*
