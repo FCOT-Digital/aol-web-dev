@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<title>v-on (predict)</title>
+</head>
+<body>
+	<div id="app">
+		{{ count }}
+		<button v-on:click="increment">Click Me!</button>
+	</div>
+	
+	<script>
+		Vue.createApp({
+			data() {
+				return {
+					count: 0,
+				};
+			},
+			methods: {
+				increment() {
+					this.count++;
+				}
+			},
+		}).mount('#app');
+	</script>
+</body>
+</html>

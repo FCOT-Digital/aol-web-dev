@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<title>v-on (debug)</title>
+</head>
+<body>
+	<div id="app">
+		{{ submitted_name }}
+		<form v-on:submit="update">
+			<input type="text" v-model="inputted_name" placeholder="Enter your name">
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	
+	<script>
+		Vue.createApp({
+			data() {
+				return {
+					submitted_name: '',
+					inputted_name: '',
+				};
+			},
+			methods: {
+				update() {
+					this.submitted_name = this.inputted_name;
+				},
+			},
+		}).mount('#app');
+	</script>
+</body>
+</html>
