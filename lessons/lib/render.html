@@ -68,6 +68,10 @@
 			text-decoration: none;
 			font-style: italic;
 		}
+		code {
+			color: var(--attention);
+			font-family: monospace;
+		}
 		img {
 			max-width: 100%;
 			max-height: calc(100vh - 2rem);
@@ -103,7 +107,7 @@
 			<button
 				v-bind:class="{ 'call-to-action': !file_text && !pending }"
 				v-on:drop.prevent="handleDrop"
-				ondragover="event.preventDefault()"
+				v-on:dragover.prevent
 			>
 				Drop Markdown File Here
 			</button>
