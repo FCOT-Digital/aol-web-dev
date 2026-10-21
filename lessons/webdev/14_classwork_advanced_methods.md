@@ -19,9 +19,9 @@
 
 ## Adapt & Inspect
 
-You're going to find out and explain how often the computed method runs.
+You're going to find out and explain how often the `computed` method runs.
 
-1. Put a console.log in the greeting method.
+1. Put a `console.log` in the greeting method.
 1. How often does it recalculate the greeting?
 *Your answer here.*
 1. Put several greetings on screen.
@@ -49,7 +49,7 @@ You're going to find out and explain how often the computed method runs.
 
 ## Inspect
 
-1. What keywords do we use in createApp to configure a Vue app?
+1. What keywords do we use in `createApp` to configure a Vue app?
     * *Your answer here.*
     * *Your answer here.*
     * *Your answer here.*
