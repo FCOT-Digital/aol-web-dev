@@ -7,7 +7,7 @@
 
 ## Predict & Run
 
-1. [Computed Example](../webdev/14_resource_computed.html).
+1. [Computed example](../webdev/14_resource_computed.html).
 1. Open the example in an editor.
 1. Predict what you think will happen.
 *Your answer here.*
@@ -37,7 +37,7 @@ You're going to find out and explain how often the computed method runs.
 
 ## Predict & Run
 
-1. [Watcher Example](../webdev/14_resource_watcher.html).
+1. [Watcher example](../webdev/14_resource_watcher.html).
 1. Open the example in an editor.
 1. Predict what you think will happen.
 *Your answer here.*
