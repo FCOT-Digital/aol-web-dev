@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<title>Fetched values</title>
+</head>
+<body>
+	<div id="app">
+		{{ fact }}
+		<button v-on:click="fetchFact">Fetch a new fact</button>
+	</div>
+	
+	<script>
+		Vue.createApp({
+			data() {
+				return {
+					fact: "",
+				};
+			},
+			methods: {
+				async fetchFact() {
+					try {
+						const response = await fetch('https://catfact.ninja/fact');
+						const data = await response.json();
+						this.fact = data.fact;
+					} catch (error) {
+						this.fact = "Failed to fetch a fact.";
+					}
+				}
+			},
+		}).mount('#app');
+	</script>
+</body>
+</html>
