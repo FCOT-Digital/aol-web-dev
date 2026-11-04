@@ -1,4 +1,4 @@
-# 16. Flask Back End
+# 16 Flask Back End
 
 * Build a back-end using Flask, so you can serve and retain data.
 
@@ -11,20 +11,20 @@
 	* [HTML example](../webdev/static/16_index.html)
 1. What will this code do?
 	* *Your answer here.*
-1. Run the code in Python.
-1. Describe your tests.
-	* *Your answer here.*
+1. Run the Python file and visit the URL it puts in the console.
 1. Was your prediction correct?
+	* *Your answer here.*
+1. Describe what you did to see what the code was doing.
 	* *Your answer here.*
 
 ---
 
 ## Inspect
 
-1. Where does the javascript come from?
-	* Where is it stored on the server? *Your answer here.*
-	* How is it linked to the HTML? *Your answer here.*
-	* This can also be used to link CSS files. How is that done? *Your answer here.*
+1. How is the JavaScript included in the HTML:
+	* Where is the file	located? *Your answer here.*
+	* How is included in the HTML? *Your answer here.*
+	* How are CSS files incuded? *Research, your answer here.*
 
 ---
 
@@ -32,7 +32,7 @@
 
 1. Install the REST Client extension for VS Code.
 1. Open [HTTP file example](../webdev/16_resource_api_checker.http).
-1. Click the "Send Request" link above the first line of code.
+1. Click the `Send Request` link above the first line of code.
 1. What happens in the output window?
 	* *Your answer here.*
 
@@ -50,14 +50,18 @@
 
 ## Adapt
 
-1. Does the code use `/api/hello/<name>` anywhere?
+1. The code has two ways to provide a greeting. What are they?
 	* *Your answer here.*
-1. Extend the code so it does use `/api/hello/<name>` appropriately.
+1. Which way is used in the current codebase?
+	* *Your answer here.*
+1. Adjust the code so it will `fetch` the greeting from the API.
 
 ---
 
 ## Evaluate
 
-1. Are my filenames clear and easy to understand?
+1. Is `my_awful_js.js` a good filename?
 	* *Your answer here.*
-	* *Improve them.*
+1. What should a good filename communicate?
+	* *Your answer here.*
+	* *Suggest a better filename.*
