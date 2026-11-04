@@ -14,14 +14,14 @@
 1. Run the Python file and visit the URL it puts in the console.
 1. Was your prediction correct?
 	* *Your answer here.*
-1. Describe what you did to see what the code was doing.
+1. Describe what the steps you took to check what the code was doing.
 	* *Your answer here.*
 
 ---
 
 ## Inspect
 
-1. How is the JavaScript included in the HTML:
+1. How is the JavaScript included in the webpage:
 	* Where is the file	located? *Your answer here.*
 	* How is included in the HTML? *Your answer here.*
 	* How are CSS files incuded? *Research, your answer here.*
@@ -32,6 +32,7 @@
 
 1. Install the REST Client extension for VS Code.
 1. Open [HTTP file example](../webdev/16_resource_api_checker.http).
+1. Check your Python server is still running.
 1. Click the `Send Request` link above the first line of code.
 1. What happens in the output window?
 	* *Your answer here.*
