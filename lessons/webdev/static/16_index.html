@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Markdown Renderer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="/static/my_awful_js.js" defer></script>
+</head>
+<body id="app">
+	<h1>Hello World</h1>
+	<input v-model="name" placeholder="Enter your name" />
+	<button v-on:click="sayHello">Say Hello</button>
+	<p>{{ greeting }}</p>
+</body>
+</html>
