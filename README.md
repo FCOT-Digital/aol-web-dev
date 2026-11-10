@@ -16,16 +16,20 @@ Web development course for T Level Software Development Year Two.
 
 ## Resources
 
+### Language Tutorials
+
+* [HTML/CSS](https://www.w3schools.com/htmlcss/default.asp)
+* [VueJS](https://vuejs.org/guide/introduction.html/)
+* [Flask](https://flask.palletsprojects.com/en/stable/quickstart/)
+* [SQLite](https://www.geeksforgeeks.org/python/python-sqlite/)
+
 ### Learning Guides
 
 * [web.dev](https://web.dev/)
 * [freeCodeCamp](https://www.freecodecamp.org/)
-* [vuejs.org](https://vuejs.org/guide/introduction.html/)
 * [w3schools.com](https://www.w3schools.com/)
 * [boot.dev](https://www.boot.dev)
 * [coddy.tech](https://coddy.tech/)
-* [flask/quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
-* [sqlbolt.com](https://sqlbolt.com/)
 * [exercism.org](https://exercism.org/)
 
 ### Specific Tools
