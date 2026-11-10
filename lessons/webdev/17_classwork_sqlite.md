@@ -27,12 +27,12 @@
     * *Your answer here.*
 1. There are key words in the SQL that ensure this. What are they?
     * *Your answer here.*
-1. Notice I've put the `join code` at the top of the `presentations` table in my ERD. Why is this?
-    * *Your answer here.*
 1. What's the pattern between the top of my ERD tables, the SQL code and the uniqueness of the fields?
     * *Your answer here.*
 
 ---
+
+![Entity Relationship Diagram](../webdev/17_resource_erd.png)
 
 ## Inspect
 
