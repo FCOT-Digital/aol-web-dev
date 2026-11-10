@@ -1,0 +1,20 @@
+erDiagram
+    direction LR
+    presentations {
+        string join_code PK
+        string title
+        string description
+        date presented_at
+    }
+    participants {
+        string email PK
+        string display_name
+    }
+    comments {
+        int id PK
+        string presentation FK
+        string author FK
+        string comment
+    }
+    presentations ||--o{ comments : has
+    participants ||--o{ comments : writes
