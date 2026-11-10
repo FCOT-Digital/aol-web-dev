@@ -3,6 +3,7 @@
 Web development course for T Level Software Development Year Two.
 
 * [Resources](#resources)
+	* [Language Tutorials](#language-tutorials)
 	* [Learning Guides](#learning-guides)
 	* [Specific Tools](#specific-tools)
 	* [Formal Resources](#formal-resources)
