@@ -7,22 +7,24 @@
 	<base target="_blank">
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand" rel="stylesheet">
 	<style id="palette">
 		html {
 			--background: hsl(0, 0%, 100%);
-			--main: hsl(0, 0%, 15%);
-			--attention: hsl(120, 100%, 15%);
-			--alternate: hsl(300, 100%, 15%);
+			--main: hsl(0, 0%, 10%);
+			--technical: hsl(120, 100%, 20%);
+			--attention: hsl(180, 100%, 20%);
 			--external: hsl(240, 100%, 15%);
+			--contribution: hsl(300, 100%, 20%);
 		}
 		@media (prefers-color-scheme: dark) {
 			html {
 				--background: hsl(0, 0%, 0%);
-				--main: hsl(0, 0%, 85%);
-				--attention: hsl(120, 100%, 85%);
+				--main: hsl(0, 0%, 90%);
+				--technical: hsl(120, 100%, 80%);
+				--attention: hsl(180, 100%, 80%);
 				--external: hsl(240, 100%, 85%);
-				--alternate: hsl(300, 100%, 85%);
+				--contribution: hsl(300, 100%, 80%);
 			}
 		}
 	</style>
@@ -69,7 +71,7 @@
 			font-style: italic;
 		}
 		code {
-			color: var(--attention);
+			color: var(--technical);
 			font-family: monospace;
 		}
 		img {
@@ -84,11 +86,11 @@
 			clear: both;
 		}
 		h1, h2, h3, h4, h5, h6 {
-			color: var(--attention);
+			color: var(--contribution);
 			font-family: monospace;
 		}
 		em {
-			color: var(--alternate);
+			color: var(--contribution);
 		}
 		@media print {
 			nav {
@@ -150,7 +152,9 @@
 				handleKeyPress(event) {
 					if (event.key === 'PageUp') {
 						event.preventDefault();
-						if (this.current_page > 0) {
+						if (this.current_page === null) {
+							this.current_page = 0;
+						} else if (this.current_page > 0) {
 							this.current_page = this.current_page - 1;
 						}
 						this.scrollToPage(this.current_page);
