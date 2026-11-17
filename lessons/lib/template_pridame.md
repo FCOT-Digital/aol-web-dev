@@ -1,45 +1,49 @@
 # Template Lesson
 
-* Template a PRIDAME lesson so that I can test the codebase
+* Template a PRIDAME lesson so that I can test the codebase.
 
 ---
-
-![Code snippet](../lib/LxxPredictLand.png)
 
 ## Predict & Run
 
-1. What will this code do?
-*Your answer here*
-1. Test of another question
+1. Provide working sample code.
+    * *This is how to request an answer.*
+1. Get students to predict what the code will do.
+1. Get them to run the code and check their predictions.
 
 ---
 
-![Code snippet](../lib/LxxPredictPort.png)
+## Investigate
 
-## Inspect
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Bring their attention to specific parts of the code.
+These should be the parts that are most important for them to understand.
 
 ---
 
 ## Debug
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Debugging is a critical skill for any programmer.
+Either:
+
+* Get them to debug a provided piece of code.
+* Step them through a debugging process.
 
 ---
 
 ## Adapt
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+With some guidance, students adapt code to do something different.
 
 ---
 
 ## Make
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Students create their own code based on what they've learned.
+This will usually be an ongoing project.
 
 ---
 
 ## Evaluate
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Get metacognitive!
+Students should reflect on most useful, most difficult, and most interesting parts of the lesson.
