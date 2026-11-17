@@ -24,13 +24,17 @@
 
 ## Inspect
 
-1. Look at lines 6 & 7 of [18_resource_signup.py](../webdev/18_resource_signup.py). What, exactly, does each line do?
-    * *Your answer here.*
 1. Outline each step of the flow of data from the user to the database. Include filenames and line numbers in your answer.
     1. The user knows their email and what they'd like to be called. They enter this information into the form on the webpage. (18_signup.html:12-20)
     1. *Keep going...*
 1. Outline each step of the flow of data from the database to the user. Include filenames and line numbers in your answer.
     1. *Your answer here.*
+1. What did `with` do when handling files (from Year 1)?
+    * *Your answer here.*
+1. What does `with` do when handling a database connection?
+    * *Your answer here.*
+1. Look at lines 6 & 7 of [18_resource_signup.py](../webdev/18_resource_signup.py). What, exactly, does each line do?
+    * *Your answer here.*
 
 ---
 
