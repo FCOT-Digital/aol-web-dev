@@ -28,9 +28,9 @@
     * *Your answer here.*
 1. Outline each step of the flow of data from the user to the database. Include filenames and line numbers in your answer.
     1. The user knows their email and what they'd like to be called. They enter this information into the form on the webpage. (18_signup.html:12-20)
-    * *Keep going...*
+    1. *Keep going...*
 1. Outline each step of the flow of data from the database to the user. Include filenames and line numbers in your answer.
-    * *Your answer here.*
+    1. *Your answer here.*
 
 ---
 
