@@ -24,7 +24,7 @@
 
 ## Inspect
 
-1. Look at lines 6 & 7. What, exactly, does each line do?
+1. Look at lines 6 & 7 of [18_resource_signup.py](../webdev/18_resource_signup.py). What, exactly, does each line do?
     * *Your answer here.*
 1. Outline each step of the flow of data from the user to the database. Include filenames and line numbers in your answer.
     * *Your answer here.*
