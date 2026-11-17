@@ -39,6 +39,8 @@
     * *Your answer here.*
 1. For each of the steps in your data flow, add a line of code that will print out the data at that point in the flow. This is a common way of debugging a multi-stage process.
 
+---
+
 ## Adapt
 
 1. Research how to update a record in a database using SQL.
