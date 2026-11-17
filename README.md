@@ -41,22 +41,7 @@ Web development course for T Level Software Development Year Two.
   
 ### Formal Resources
 * [Exam Board Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
-
-### Accessibility 
-* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-* [Lighthouse Page Audit](https://developer.chrome.com/docs/lighthouse)
-* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/)
-* [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents)
-* [Web Accessibility Regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
-
-### Security Resources
-* [National Cyber Security Centre](https://www.ncsc.gov.uk/)
-* [owasp.org](https://owasp.org/)
-* [portswigger.net](https://portswigger.net/)
-
-### Design Learning Resources
-* [lawsofux.com](https://lawsofux.com/)
-* [uxdesigninstitute.com](https://www.uxdesigninstitute.com/blog/ui-glossary/)
+log/ui-glossary/)
 * [UX Magazine](https://uxmag.com/)
 * [UX Myths](https://uxmyths.com/)
 * [UX Planet](https://uxplanet.org/)
@@ -92,3 +77,19 @@ Web development course for T Level Software Development Year Two.
 ### Other Resource Libraries
 * [Free Resources for Web Devs](https://free-for.dev/#/)
 * [uiuxshowcase.com](https://uiuxshowcase.com/)
+
+### Accessibility 
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+* [Lighthouse Page Audit](https://developer.chrome.com/docs/lighthouse)
+* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/)
+* [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents)
+* [Web Accessibility Regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+
+### Security Resources
+* [National Cyber Security Centre](https://www.ncsc.gov.uk/)
+* [OWASP](https://owasp.org/)
+* [portswigger.net](https://portswigger.net/)
+
+### Design Learning Resources
+* [Laws of UX](https://lawsofux.com/)
+* [UX Design Institute](https://www.uxdesigninstitute.com/)
