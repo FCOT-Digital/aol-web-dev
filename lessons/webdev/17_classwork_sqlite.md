@@ -47,6 +47,13 @@
 1. Why have I laid out the ERD with the `comments` table to the right of the `presentations` table?
     * *Your answer here.*
 
+## Debug
+
+1. Research what the `commit` command does in SQLite.
+    * *Your answer here.*
+1. What happens if you don't use `commit`?
+    * *Your answer here.*
+
 ---
 
 ## Adapt
