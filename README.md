@@ -87,7 +87,6 @@ Web development course for T Level Software Development Year Two.
 * [uiuxshowcase.com](https://uiuxshowcase.com/)
 * [Laws of UX](https://lawsofux.com/)
 * [UX Design Institute](https://www.uxdesigninstitute.com/)
-
 * [UX Magazine](https://uxmag.com/)
 * [UX Myths](https://uxmyths.com/)
 * [UX Planet](https://uxplanet.org/)
