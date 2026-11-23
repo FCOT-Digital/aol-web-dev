@@ -7,13 +7,13 @@ Web development course for T Level Software Development Year Two.
 	* [Learning Guides](#learning-guides)
 	* [Specific Tools](#specific-tools)
 	* [Formal Resources](#formal-resources)
-	* [Accessibility](#accessibility)
-	* [Security Resources](#security-resources)
-	* [Design Learning Resources](#design-learning-resources)
 	* [Design Inspiration](#design-inspiration)
 	* [Component Libraries](#component-libraries)
 	* [Licensing and The Law](#licensing-and-the-law)
-	* [Other Resource Libraries](#other-resource-libraries)
+	* [Accessibility](#accessibility)
+	* [Security Resources](#security-resources)
+	* [Design Learning Resources](#design-learning-resources)
+	* [Free Stuff](#free-stuff)
 
 ## Resources
 
@@ -41,10 +41,6 @@ Web development course for T Level Software Development Year Two.
   
 ### Formal Resources
 * [Exam Board Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
-log/ui-glossary/)
-* [UX Magazine](https://uxmag.com/)
-* [UX Myths](https://uxmyths.com/)
-* [UX Planet](https://uxplanet.org/)
 
 ### Design Inspiration
 * [brandcolors.net](https://brandcolors.net/)
@@ -74,10 +70,6 @@ log/ui-glossary/)
 * [Online Safety Act - Ofcom](https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services)
 * [UK Advertising Standards - CAP Code](https://www.asa.org.uk/codes-and-rulings/advertising-codes/non-broadcast-code.html)
 
-### Other Resource Libraries
-* [Free Resources for Web Devs](https://free-for.dev/#/)
-* [uiuxshowcase.com](https://uiuxshowcase.com/)
-
 ### Accessibility 
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 * [Lighthouse Page Audit](https://developer.chrome.com/docs/lighthouse)
@@ -91,5 +83,12 @@ log/ui-glossary/)
 * [portswigger.net](https://portswigger.net/)
 
 ### Design Learning Resources
+* [uiuxshowcase.com](https://uiuxshowcase.com/)
 * [Laws of UX](https://lawsofux.com/)
 * [UX Design Institute](https://www.uxdesigninstitute.com/)
+* [UX Magazine](https://uxmag.com/)
+* [UX Myths](https://uxmyths.com/)
+* [UX Planet](https://uxplanet.org/)
+
+### Free Stuff
+* [Free Resources for Web Devs](https://free-for.dev/#/)
