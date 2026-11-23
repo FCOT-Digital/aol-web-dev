@@ -28,19 +28,18 @@ Web development course for T Level Software Development Year Two.
 
 * [web.dev](https://web.dev/)
 * [freeCodeCamp](https://www.freecodecamp.org/)
-* [w3schools.com](https://www.w3schools.com/)
+* [w3schools](https://www.w3schools.com/)
 * [boot.dev](https://www.boot.dev)
 * [coddy.tech](https://coddy.tech/)
-* [exercism.org](https://exercism.org/)
+* [exercism](https://exercism.org/)
 
 ### Learning Design
-* [uiuxshowcase.com](https://uiuxshowcase.com/)
+* [UI UX Showcase](https://uiuxshowcase.com/)
 * [Laws of UX](https://lawsofux.com/)
 * [UI Glossary](https://www.uxdesigninstitute.com/blog/ui-glossary/)
 * [UX Design Institute](https://www.uxdesigninstitute.com/)
 * [UX Magazine](https://uxmag.com/)
 * [UX Myths](https://uxmyths.com/)
-* [UX Planet](https://uxplanet.org/)
 
 ### Specific Tools
 * [css-tricks.com](https://css-tricks.com/guides/)
@@ -50,7 +49,7 @@ Web development course for T Level Software Development Year Two.
 * [sqlbolt.com](https://sqlbolt.com/)
   
 ### Formal Resources
-* [Exam Board Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
+* [Pearson's Course Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
 
 ### Design Inspiration
 * [brandcolors.net](https://brandcolors.net/)
@@ -59,10 +58,9 @@ Web development course for T Level Software Development Year Two.
 * [recent.design](https://recent.design/)
 * [posts.design](https://posts.design/)
 * [brandingstyleguides.com](https://brandingstyleguides.com/guide/)
-* [mcdonalds.cz](https://www.mcdonalds.cz/static/files/logo/mcdonalds_logomanual.pdf) 
 
 ### Component Libraries
-* [lucide.org](https://lucide.dev/)
+* [Lucide Icons](https://lucide.dev/)
 * [navbar.gallery](https://www.navbar.gallery/)
 * [motion.dev](https://motion.dev/)
 
@@ -93,4 +91,5 @@ Web development course for T Level Software Development Year Two.
 * [portswigger.net](https://portswigger.net/)
 
 ### Free Stuff
-* [Free Resources for Web Devs](https://free-for.dev/#/)
+* [GitHub Education Pack](https://github.com/education)
+* [Free Resources for Web Devs](https://free-for.dev/)
