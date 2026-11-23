@@ -4,7 +4,8 @@ Web development course for T Level Software Development Year Two.
 
 * [Resources](#resources)
 	* [Language Tutorials](#language-tutorials)
-	* [Learning Guides](#learning-guides)
+	* [Learning WebDev](#learning-webdev)
+	* [Learning Design](#learning-design)
 	* [Specific Tools](#specific-tools)
 	* [Formal Resources](#formal-resources)
 	* [Design Inspiration](#design-inspiration)
@@ -12,7 +13,6 @@ Web development course for T Level Software Development Year Two.
 	* [Licensing and The Law](#licensing-and-the-law)
 	* [Accessibility](#accessibility)
 	* [Security Resources](#security-resources)
-	* [Design Learning Resources](#design-learning-resources)
 	* [Free Stuff](#free-stuff)
 
 ## Resources
@@ -24,7 +24,7 @@ Web development course for T Level Software Development Year Two.
 * [Flask](https://flask.palletsprojects.com/en/stable/quickstart/)
 * [SQLite](https://www.geeksforgeeks.org/python/python-sqlite/)
 
-### Learning Guides
+### Learning WebDev
 
 * [web.dev](https://web.dev/)
 * [freeCodeCamp](https://www.freecodecamp.org/)
@@ -32,6 +32,15 @@ Web development course for T Level Software Development Year Two.
 * [boot.dev](https://www.boot.dev)
 * [coddy.tech](https://coddy.tech/)
 * [exercism.org](https://exercism.org/)
+
+### Learning Design
+* [uiuxshowcase.com](https://uiuxshowcase.com/)
+* [Laws of UX](https://lawsofux.com/)
+* [UI Glossary](https://www.uxdesigninstitute.com/blog/ui-glossary/)
+* [UX Design Institute](https://www.uxdesigninstitute.com/)
+* [UX Magazine](https://uxmag.com/)
+* [UX Myths](https://uxmyths.com/)
+* [UX Planet](https://uxplanet.org/)
 
 ### Specific Tools
 * [css-tricks.com](https://css-tricks.com/guides/)
@@ -82,14 +91,6 @@ Web development course for T Level Software Development Year Two.
 * [National Cyber Security Centre](https://www.ncsc.gov.uk/)
 * [OWASP](https://owasp.org/)
 * [portswigger.net](https://portswigger.net/)
-
-### Design Learning Resources
-* [uiuxshowcase.com](https://uiuxshowcase.com/)
-* [Laws of UX](https://lawsofux.com/)
-* [UX Design Institute](https://www.uxdesigninstitute.com/)
-* [UX Magazine](https://uxmag.com/)
-* [UX Myths](https://uxmyths.com/)
-* [UX Planet](https://uxplanet.org/)
 
 ### Free Stuff
 * [Free Resources for Web Devs](https://free-for.dev/#/)
