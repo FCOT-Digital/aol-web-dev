@@ -31,8 +31,9 @@ There is no code to run in this lesson.
 
 ## Inspect
 
-| CRUD                | REST                | SQL                 | Description         |
+| CRUD                | HTTP REST           | SQL                 | Description         |
 |---------------------|---------------------|---------------------|---------------------|
+| Create              | *Your answer here.* | *Your answer here.* | *Your answer here.* |
 | *Your answer here.* | *Your answer here.* | *Your answer here.* | *Your answer here.* |
 
 1. What does CRUD stand for?
