@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signed Up</title>
+    	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="/static/19_read.js" defer></script>
+    </head>
+    <body>
+        <h1>Users Of This Totally Awesome App!</h1>
+        <ul>
+            <li v-for="user in users">
+                {{ user.display_name }}
+                <a href="mailto:{{ user.email }}">
+                    {{ user.email }}
+                </a>
+            </li>
+        </ul>
+    </body>
+</html>

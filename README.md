@@ -4,16 +4,16 @@ Web development course for T Level Software Development Year Two.
 
 * [Resources](#resources)
 	* [Language Tutorials](#language-tutorials)
-	* [Learning Guides](#learning-guides)
+	* [Learning WebDev](#learning-webdev)
+	* [Learning Design](#learning-design)
 	* [Specific Tools](#specific-tools)
 	* [Formal Resources](#formal-resources)
-	* [Accessibility](#accessibility)
-	* [Security Resources](#security-resources)
-	* [Design Learning Resources](#design-learning-resources)
 	* [Design Inspiration](#design-inspiration)
 	* [Component Libraries](#component-libraries)
 	* [Licensing and The Law](#licensing-and-the-law)
-	* [Other Resource Libraries](#other-resource-libraries)
+	* [Accessibility](#accessibility)
+	* [Security Resources](#security-resources)
+	* [Free Stuff](#free-stuff)
 
 ## Resources
 
@@ -24,27 +24,32 @@ Web development course for T Level Software Development Year Two.
 * [Flask](https://flask.palletsprojects.com/en/stable/quickstart/)
 * [SQLite](https://www.geeksforgeeks.org/python/python-sqlite/)
 
-### Learning Guides
+### Learning WebDev
 
 * [web.dev](https://web.dev/)
 * [freeCodeCamp](https://www.freecodecamp.org/)
-* [w3schools.com](https://www.w3schools.com/)
+* [w3schools](https://www.w3schools.com/)
 * [boot.dev](https://www.boot.dev)
 * [coddy.tech](https://coddy.tech/)
-* [exercism.org](https://exercism.org/)
+* [exercism](https://exercism.org/)
+
+### Learning Design
+* [UI UX Showcase](https://uiuxshowcase.com/)
+* [Laws of UX](https://lawsofux.com/)
+* [UI Glossary](https://www.uxdesigninstitute.com/blog/ui-glossary/)
+* [UX Design Institute](https://www.uxdesigninstitute.com/)
+* [UX Magazine](https://uxmag.com/)
+* [UX Myths](https://uxmyths.com/)
 
 ### Specific Tools
 * [css-tricks.com](https://css-tricks.com/guides/)
 * [cssreference.io](https://cssreference.io/)
 * [caniuse.com](https://caniuse.com/)
 * [statcounter.com](https://gs.statcounter.com/)
+* [sqlbolt.com](https://sqlbolt.com/)
   
 ### Formal Resources
-* [Exam Board Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
-log/ui-glossary/)
-* [UX Magazine](https://uxmag.com/)
-* [UX Myths](https://uxmyths.com/)
-* [UX Planet](https://uxplanet.org/)
+* [Pearson's Course Documents](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
 
 ### Design Inspiration
 * [brandcolors.net](https://brandcolors.net/)
@@ -53,10 +58,9 @@ log/ui-glossary/)
 * [recent.design](https://recent.design/)
 * [posts.design](https://posts.design/)
 * [brandingstyleguides.com](https://brandingstyleguides.com/guide/)
-* [mcdonalds.cz](https://www.mcdonalds.cz/static/files/logo/mcdonalds_logomanual.pdf) 
 
 ### Component Libraries
-* [lucide.org](https://lucide.dev/)
+* [Lucide Icons](https://lucide.dev/)
 * [navbar.gallery](https://www.navbar.gallery/)
 * [motion.dev](https://motion.dev/)
 
@@ -74,10 +78,6 @@ log/ui-glossary/)
 * [Online Safety Act - Ofcom](https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services)
 * [UK Advertising Standards - CAP Code](https://www.asa.org.uk/codes-and-rulings/advertising-codes/non-broadcast-code.html)
 
-### Other Resource Libraries
-* [Free Resources for Web Devs](https://free-for.dev/#/)
-* [uiuxshowcase.com](https://uiuxshowcase.com/)
-
 ### Accessibility 
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 * [Lighthouse Page Audit](https://developer.chrome.com/docs/lighthouse)
@@ -90,6 +90,6 @@ log/ui-glossary/)
 * [OWASP](https://owasp.org/)
 * [portswigger.net](https://portswigger.net/)
 
-### Design Learning Resources
-* [Laws of UX](https://lawsofux.com/)
-* [UX Design Institute](https://www.uxdesigninstitute.com/)
+### Free Stuff
+* [GitHub Education Pack](https://github.com/education)
+* [Free Resources for Web Devs](https://free-for.dev/)
