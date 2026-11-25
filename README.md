@@ -1,7 +1,8 @@
 # AOL Web Development
 
-Web development course for T Level Software Development Year Two.
+Web development course for Pearson's T Level Software Development Year Two.
 
+* [Content & Delivery](#content--delivery)
 * [Resources](#resources)
 	* [Language Tutorials](#language-tutorials)
 	* [Learning WebDev](#learning-webdev)
@@ -14,6 +15,24 @@ Web development course for T Level Software Development Year Two.
 	* [Accessibility](#accessibility)
 	* [Security Resources](#security-resources)
 	* [Free Stuff](#free-stuff)
+
+## Content & Delivery
+
+This is about a 100-hour course to teach full stack web development.
+It teaches HTML/CSS, Vue JavaScript, Python Flask, and SQLite.
+It does not teach system architecture, professional practices, or web design.
+These are essential for a web developer and for the T Level, so I am gently encouraging my collegaues to contribute them into this resource.
+Within [lessons/webdev](lessons/webdev) there are a series of 90-minute lessons.
+Each is a guided worksheet, but is not complete without a teacher familiar with web development.
+They can be presented on classroom screens using my [markdown renderer](lessons/lib/render.html).
+
+### PRIDAME
+
+PRIDAME is a teaching structure I have adapted from [PRIMM](https://teachcomputing.org/blog/using-primm-to-structure-programming-lessons).
+
+* Added an Evaluate step to encourage metacognitive reflection.
+* Explictly surfaced Debug as a core part of developing software.
+* Renamed Modify to Adapt so the acronym doesn't duplicate letters.
 
 ## Resources
 
